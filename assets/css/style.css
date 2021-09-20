@@ -71,6 +71,10 @@ body {
       color: #024e76;
   }
 
+  section {
+      padding: 60px;
+  }
+
   .hero {
       background-image: url("../images/hero-bg.jpg");
       background-size: cover;
@@ -78,6 +82,21 @@ body {
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
+  }
+
+  .hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+  }
+
+  .hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
   }
 
   .hero-form {
@@ -120,20 +139,23 @@ body {
       font-size: 16px;
   }
 
-  .hero-cta {
-    width: 35%;
-    text-align: right;
-    margin: 3.5%;
-    color: #fff;
-    font-size: 18px;
-    line-height: 1.3;
-  }
-
-  .hero-cta h2 {
-    font-style: italic;
+  .section-title {
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
     font-size: 55px;
-    color: #fce138;
-  }
+    border-bottom: 3px solid #fce138;
+    color: #024e76
+}
+
+.primary-border {
+   border-color: #fce138
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
 
  .intro p {
       line-height: 1.7;
@@ -146,20 +168,6 @@ body {
 
   .steps {
     background: #fce138;
-  }
-
-  .section-title {
-      padding-bottom: 20px;
-      text-align: center;
-      margin: 0 auto 35px auto;
-      width: 50%;
-      font-size: 55px;
-      border-bottom: 3px solid #fce138;
-      color: #024e76
-  }
-
-  .secondary-border {
-      border-color: #39a6b2;
   }
 
   .step {
@@ -210,8 +218,16 @@ body {
     color: #024e76;
 }
 
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .trainer {
-    margin: 0 auto 20px auto;
+    margin: 20px;
     background:#024e76;
     color: #fce138;
     flex: 1;
@@ -240,21 +256,12 @@ body {
     font-size: 17px; 
 }
 
-.trainers {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 .contact {
     background: #024e76;
 }
 
 .contact h2 {
     color: #fce138;
-    width: 100%;
 }
 
 .contact-info {
@@ -288,10 +295,6 @@ body {
     font-style: normal;
   }
 
-.contact-info a {
-    color: #fce138;
-}
-
 .contact-form input, .contact-form textarea {
     border: 1px solid #024e76;
     display: block;
@@ -311,6 +314,10 @@ body {
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
+}
+
+.contact-info a {
+    color: #fce138;
 }
 
 .text-left {
